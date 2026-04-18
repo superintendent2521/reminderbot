@@ -9,6 +9,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Protocol, cast
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
+from dotenv import load_dotenv
+
+load_dotenv()
 
 import interactions
 from interactions import (
